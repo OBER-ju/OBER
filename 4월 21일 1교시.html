@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>회원가입</title>
+    </head>
+</html>
+<body>
+    <h1><b>회원가입하기</b></h1>
+    <table border="1">
+        <form action="join.php">
+        <tr><td colspan="2", style="text-align: center;">회원가입</td> </tr>
+        <tr><td>이름</td> <td><input type="text", name="이름" ></td></tr>
+        <tr><td>사용자 ID</td> <td><input type="text", name="id" ></td></tr>
+        <tr><td>암호</td> <td><input type="password", name="ps"></td></tr>
+        <tr><td>암호확인</td> <td><input type="password", name="pse"></td></tr>
+        <tr><td>주민등록번호</td> <td><input type="text", name="주민번호", size="6">-<input type="text", name="주민번호", size="7"></td></tr>
+        <tr>
+            <td>전화번호</td> <td><input type="text", name="number", size="4">-<input type="text", name="number", size="4">-<input type="text", name="number", size="4"></td>
+        </tr>
+        <tr>
+            <td>성별</td> <td><input type="radio", name="sung", value="man">남자 <input type="radio", name="sung", value="woman">여자</td> 
+        </tr>
+        <tr><td>직업</td> <td><select name="job" id="job">
+                <option value="선택해주세요">선택해주세요</option>
+                <option value="대기업">대기업</option>
+                <option value="공무원">공무원</option>
+                <option value="중소기업">중소기업</option>
+                <option value="사업자">사업자</option>
+        </select></td></tr>
+        <tr><td>email 주소</td><td><input type="text", name="email"></td></tr>
+        <tr>
+            <td colspan="2", style="text-align: center;"><input type="submit", value="가입신청"> <input type="reset", value="취소"></td>
+        </tr>
+        </form>
+    </table>
+</body>
+
