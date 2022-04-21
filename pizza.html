@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문서만들기</title>
+</head>
+<body>
+    <h1><b>피자 주문하기</b></h1>
+    <hr />
+    <form action="diliery.php">
+    <p>고객명 : <input type="text"></p>
+    <p>전화번호 : <input type="text" ></p>
+    <p>E-mail : <input type="text"></p>
+    <fieldset style="width: 300px;">
+        <legend>피자사이즈</legend>
+        <p><input type="radio" name="psize" value="small">small</p>
+        <p><input type="radio" name="psize" value="medium">medium</p>
+        <p><input type="radio" name="psize" value="large">large</p>
+
+    </fieldset>
+    <fieldset style="width: 300px;">
+        <legend>토핑 선택</legend>
+        <p><input type="checkbox" name="b">베이컨</p>
+        <p><input type="checkbox" name="ch">치즈</p>
+        <p><input type="checkbox" name="ol">양파</p>
+        <p><input type="checkbox" name="m">버섯</p>
+    </fieldset>
+    <p>희망배송시간 : <input type="time" ></p>
+    <p>배송시 요청사항 : <input type="text"></p>
+    <p><input type="submit" value="주문하기"> <input type="reset" value="다시 선택하기"></p>
+    </form>
+</body>
+</html>
