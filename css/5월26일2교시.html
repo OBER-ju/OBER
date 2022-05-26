@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스에 그림자 만들기</title>
+</head>
+<style>
+    div {
+        cursor: pointer;
+    }
+    .redBox {
+        box-shadow: 10px 10px red;
+    }
+    .blurbox {
+        box-shadow: 2px 2px 2px black,
+                    0 0 25px blue,
+                    0 0 5px darkblue;
+    }
+    div {
+        width: 200px;
+        height: 230px;
+        padding: 10px;
+        border: 10px solid lightgrey;
+        background-image: url(../image/손석구사랑.jpg);
+        background-size: 200px 220px;
+        background-repeat: no-repeat;
+    }
+
+</style>
+<body>
+    <h3>박스에 그림자 만들기</h3>
+    <hr>
+    <div class="redBox">손석구와 함께</div><br>
+    <div class="blurbox">손석구와 함께</div><br>
+    <div class="MultiEffect">손석구와 함께</div>
+</body>
+</html>

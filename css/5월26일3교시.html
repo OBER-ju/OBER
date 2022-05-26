@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display 프로퍼티</title>
+    <style>
+        div {
+            border: 2px solid yellowgreen;
+            color: blue;
+            background: aliceblue;
+        }
+        span {
+            border: 3px dotted red;
+            background: yellow;
+        }
+        #nodis {
+            display: none;
+        }
+        #bin {
+            display: inline;
+        }
+        #binb {
+            display: inline-block;
+            height: 50px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h3>인라인,인라인블록,블록</h3>
+    <hr>
+    나는 <div id="nodis">div(none)</div> 입니다 <br>
+    나는 <div id="bin">div(inline)</div>입니다. <br>
+    나는 <div id="binb">div(inline-block)</div>입니다. <br>
+    나는 div <span>span(block)</span>입니다.
+
+</body>
+</html>
