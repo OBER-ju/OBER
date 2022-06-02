@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리스트꾸미기</title>
+    <style>
+        nav>ul>li {
+            display: inline-block;
+        }
+        ul {
+            background-color: olive;
+            color: white;
+            font-family: 'HancomUljufont';
+            padding: 10px 10px 10px 50px;
+        }
+        ul li {
+            margin-bottom: 5px;
+            padding: 0px 15px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        nav>ul>li>a:hover {
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h3>커피메뉴</h3>
+    <hr>
+    <nav id="menubar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Espresso</a></li>
+            <li><a href="#">Cappuccino</a></li>
+            <li><a href="#">Cafe Latte</a></li>
+            <li><a href="#">F.A.Q</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
